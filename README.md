@@ -64,6 +64,8 @@ Karena meminta username dan password, maka request commandnya pasti USER atau PA
 ftp.request.command == USER || ftp.request.command == PASS
 ```
 
+![6.1](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/6.1.png)
+
 > Didapatkan Username dan Password secara berurutan adalah `secretuser` dan `aku.pengen.pw.aja`
 
 ## 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
@@ -75,13 +77,23 @@ frame.contains “Real.pdf”.
 
 Maka akan tampil filter seperti gambar dibawah
 
+![7.1](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/7.1.png)
+
 Setelah itu, tinggal kita `Klik Kanan > Follow > Follow TCP`.
 
 Lalu, akan muncul seperti gambar dibawah. Untuk menyimpan file `zip` nya, kita perlu mengubahnya ke `Raw` terlebih dahulu. Setelah itu, tinggal `Save as ..`
 
+![7.2](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/7.2.png)
+
 Gambar dibawah menunjukkan isi dari file zip nya
 
+![7.3](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/7.3.png)
+
+![7.4](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/7.4.png)
+
 Setelah dibuka…. Dang~ Kena Rick Roll
+
+![7.5](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/7.5.png)
 
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
