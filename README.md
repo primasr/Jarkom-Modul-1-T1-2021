@@ -145,11 +145,19 @@ Tinggal jalankan command dibawah, lalu akan ter-filter seperti gambar dibawah
 ftp-data
 ```
 
+![10.1](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/10.1.png)
+
 Setelah itu, tinggal kita `Klik Kanan > Follow > Follow TCP`.
 
 Setelah di follow, keluar tulisan begini. Berarti, password ada di `bukanapapa.txt`
 
+![10.2](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/10.2.png)
+
 Tinggal kita Follow TCP lagi untuk trafik pada `bukanapapa.txt` nya
+
+![10.3](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/10.3.png)
+
+![10.4](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/10.4.png)
 
 > Passwordnya adalah `d1b1langbukanapaapajugagapercaya`
 
