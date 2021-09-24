@@ -1,15 +1,61 @@
 # Laporan Resmi Jarkom Modul 1
 ## _Anggota Kelompok_
 
-- Prima Secondary Ramadhan  - 05311940000001
-- Ifa
-- Widya
-
+1. Prima Secondary R (0531194000001)
+2. Asiyah Hanifah (05311940000002)
+3. Widya Inayatul L (05311940000010)
+---
 ## 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
+
+mengisi dan menggunakan filter  ```http.host contains"ichimarumaru.tech"```
+
+![unnamed](https://user-images.githubusercontent.com/73151978/134696145-92191171-c0ee-4f32-a879-5c7c179c177c.png)
+
+Kemudian follow TCP nya sehingga didapat Server yang digunakan adalah nginx/1.18.0 (Ubuntu)
+
+![unnamed (1)](https://user-images.githubusercontent.com/73151978/134696352-b1f7157f-f7c4-4341-a516-5243e5c5e463.png)
+
 ## 2. Temukan paket dari web-web yang menggunakan basic authentication method!
+
+Mengisi filter dengan ```http.authbasic```
+
+![unnamed (2)](https://user-images.githubusercontent.com/73151978/134696954-f40fee6e-844d-49ed-bc7b-901666619a28.png)
+
+Didapatkan kredensial berupa username dan password secara berurutan adalah ```kuncimenujulautan``` dan ```tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN```
+
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+
+Kita lakukan login menggunakan username dan password pada soal 2. Sehingga menampilkan sebuah website pada gambar dibawah ini
+
+![unnamed (3)](https://user-images.githubusercontent.com/73151978/134697284-8380274e-e959-4c26-b96f-8dec80ee7343.png)
+
+Dengan jawaban HIJAU PUTIH, HIJAU, ORANGE PUTIH, BIRU, BIRU PUTIH, ORANGE, COKLAT PUTIH, COKLAT
+
 ## 4. Temukan paket mysql yang mengandung perintah query select!
+
+Di sini kami memasukkan ```filter mysql.query``` pada wireshark untuk menemukan paket mysql dengan perintah query select yang ditemukan dengan melihat request command query pada paket-paketnya.
+
+![unnamed (4)](https://user-images.githubusercontent.com/73151978/134697552-2588fd0d-5926-40cb-b474-615808023a7a.png)
+![unnamed (5)](https://user-images.githubusercontent.com/73151978/134697562-ef8ff333-fc56-421d-8292-e0ae292db245.png)
+
 ## 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+
+Di sini kami memasukkan filter mysql.query pada wireshark untuk menemukan paket mysql dengan perintah query insert yang ditemukan dengan melihat request command query pada paket-paketnya.
+
+![unnamed (6)](https://user-images.githubusercontent.com/73151978/134697803-69ba296c-d1a2-4591-a3ff-1b6b8161c188.png)
+
+Kemudian kami masuk ke link ```portal.ichimarumaru.tech``` dan memasukkan users beserta passwordnya. Dari gambar diatas, didapatkan kredensial berupa username dan password secara berurutan adalah ```akakanomi``` dan ```pemisah4lautan```
+
+![unnamed (7)](https://user-images.githubusercontent.com/73151978/134697809-be47eb45-5819-46f1-9331-93e21d9b15ee.png)
+
+Lalu portal.ichimarumaru.tech akan menampilkan sebuah website seperti dibawah
+
+![unnamed (8)](https://user-images.githubusercontent.com/73151978/134697814-8efe5c80-7abd-42b9-9554-96735580587b.png)
+
+Dengan jawaban ORANGE PUTIH, ORANGE, HIJAU PUTIH, BIRU, BIRU PUTIH, HIJAU, COKLAT PUTIH, COKLAT
+
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
 
 Karena meminta username dan password, maka request commandnya pasti USER atau PASS. Maka, kita tinggal memasukkan filter 
