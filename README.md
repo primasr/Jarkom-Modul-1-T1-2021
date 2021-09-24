@@ -103,6 +103,8 @@ Masukkan filter dibawah, untuk mendapatkan request apa saja yang terjadi pada FT
 ftp.request.command
 ```
 
+![8.1](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/8.1.png)
+
 Setelah menjalankan perintah `ftp.request.command` , tidak menunjukkan trafik yang melakukan pengambilan file dari FTP (pengambilan file itu punya format `RETR`)
 
 Trafik yang ada hanyalah `PASV` dan `STOR`
@@ -117,17 +119,23 @@ Tinggal jalankan command dibawah, lalu akan ter-filter seperti gambar dibawah
 ftp-data
 ```
 
+![9.1](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/9.1.png)
+
 Setelah itu, tinggal kita `Klik Kanan > Follow > Follow TCP`.
 
 Lalu, akan muncul seperti gambar dibawah. Untuk menyimpan file `zip` nya, kita perlu mengubahnya ke `Raw` terlebih dahulu. Setelah itu, tinggal `Save as ..`
 
+![9.2](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/9.2.png)
+
 Saat akan di _extract_, ternyata file zip tersebut memerlukan sebuah password. Password bisa didapatkan pada nomor 10
+
+![9.3](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/9.3.png)
 
 Setelah mendapatkan password dari nomor 10, kita masukkan saja ke form password pada file `.zip` nya tadi
 
 Setelah dibuka, isi dari filenya adalah seperti pada gambar berikut
 
-
+![9.4](https://raw.githubusercontent.com/primasr/Jarkom-Modul-1-T1-2021/main/screenshot/9.4.png)
 
 ## 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
