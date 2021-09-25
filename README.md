@@ -185,11 +185,13 @@ Selanjutnya pada soal ini diminta untuk menampilkan wireshark yang hanya mengamb
 ```sh
 host kemenag.go.id
 ```
+![14](https://github.com/primasr/Jarkom-Modul-1-T1-2021/blob/main/screenshot/15.1.png?raw=true)
 Berikut adalah paket yang tujuannya ke kemenag.go.id.
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 Selanjutnya pada soal ini diminta untuk menampilkan wireshark yang hanya mengambil paket yang berasal dari ip komputer kami masing-masing. Kami menggunakan filter
 ```sh
 src host 192.168.1.118
 ```
+![15](https://github.com/primasr/Jarkom-Modul-1-T1-2021/blob/main/screenshot/15.1.png?raw=true)
 Berikut adalah wireshark yang hanya mengambil paket yang berasal dari ip komputer kami.
-![15.1](https://github.com/primasr/Jarkom-Modul-1-T1-2021/screenshoot/15.1.png)
+![15.1](https://github.com/primasr/Jarkom-Modul-1-T1-2021/blob/main/screenshot/15.1.png?raw=true)
