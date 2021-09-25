@@ -162,7 +162,34 @@ Tinggal kita Follow TCP lagi untuk trafik pada `bukanapapa.txt` nya
 > Passwordnya adalah `d1b1langbukanapaapajugagapercaya`
 
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+Disini karena diminta untuk menampilkan wireshark yang hanya mengambil paket yang berasal dari port 80. Kami menggunakan filter
+```sh
+src port 80
+```
+Sehingga didapat paket-paket yang berasal dari port 80 sebagai berikut.
+
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Kemudian karena pada soal ini diminta untuk menampilkan wireshark hanya mengambil paket yang mengandung port 21. Kami menggunakan filter
+```sh
+tcp==port21
+```
+Berikut adalah paket-paket yang mengandung port 21.
+
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+Untuk soal ini diminta untuk menampilkan paket yang menuju port 443. Dan kami menggunakan filter 
+```sh
+dst port 443
+```
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+Selanjutnya pada soal ini diminta untuk menampilkan wireshark yang hanya mengambil paket yang tujuannya ke kemenag.go.id. Kami menggunakan filter
+```sh
+host kemenag.go.id
+```
+Berikut adalah paket yang tujuannya ke kemenag.go.id.
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Selanjutnya pada soal ini diminta untuk menampilkan wireshark yang hanya mengambil paket yang berasal dari ip komputer kami masing-masing. Kami menggunakan filter
+```sh
+src host 192.168.1.118
+```
+Berikut adalah wireshark yang hanya mengambil paket yang berasal dari ip komputer kami.
+![15.1](https://github.com/primasr/Jarkom-Modul-1-T1-2021/screenshoot/15.1.png)
